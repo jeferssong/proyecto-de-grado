@@ -1,0 +1,15 @@
+document.getElementById('btnInicio').addEventListener('click', function() {
+    document.getElementById('contenido').innerHTML = '<h2>Contenido de Inicio</h2><p>Bienvenido a la página de inicio.</p>';
+});
+
+document.getElementById('btnPlagas').addEventListener('click', function() {
+    document.getElementById('contenido').innerHTML = '<h2>Plagas</h2><p>Información sobre plagas y cómo combatirlas.</p>';
+});
+
+document.getElementById('btnCultivos').addEventListener('click', function() {
+    document.getElementById('contenido').innerHTML = '<h2>Cultivos</h2><p>Descubre diferentes tipos de cultivos y técnicas de cuidado.</p>';
+});
+
+document.getElementById('btnContacto').addEventListener('click', function() {
+    document.getElementById('contenido').innerHTML = '<h2>Contacto</h2><p>¿Tienes alguna pregunta? Contáctanos.</p>';
+});
